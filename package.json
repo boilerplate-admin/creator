@@ -1,0 +1,29 @@
+{
+  "name": "@bpstore/boilerplate-creator",
+  "version": "0.0.1",
+  "description": "boilerplate creator for bpstore",
+  "main": "main.js",
+  "repository": "https://github.com/boilerplate-admin/boilerplate-creator.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && cp ./package.json ./lib/ && cp ./README.md ./lib/ && cp ./LICENSE ./lib/"
+  },
+  "keywords": [
+    "creator",
+    "ide",
+    "plugin",
+    "boilerplate",
+    "@boilerplate",
+    "bpstore",
+    "@bpstore"
+  ],
+  "author": "boilerplate-admin <info@doittechnology.pl> (https://www.en.doittechnology.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
